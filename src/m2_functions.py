@@ -3,11 +3,11 @@ Practice DEFINING and CALLING
      FUNCTIONS
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         Aaron Wilkin, their colleagues, and Nihaar Munnamgi.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ###############################################################################
-# TODO: 2.
+# DONE: 2.
 #   Allow this module to use the  rosegraphics.py  module by marking the
 #     src
 #   folder in this project as a "Sources Root", as follows:
@@ -19,8 +19,10 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 
 import rosegraphics as rg
 
+import math
 
 def main():
+    distance(x,y)
     """
     TESTS the functions that you will write below.
     You write the tests per the _TODO_s below.
@@ -40,6 +42,10 @@ def main():
 #   to test whether you defined the function correctly.
 #
 ###############################################################################
+def distance(x,y):
+    x_squared = x*x
+    y_squared = y*y
+    hypotenuse = math.sqrt(x_squared + y_squared)
 
 
 ###############################################################################
