@@ -30,7 +30,7 @@ def main():
 
 
 ###############################################################################
-# TODO: 3a.  Define a function immediately below this _TODO_.
+# DONE: 3a.  Define a function immediately below this _TODO_.
 #   It takes two arguments that denote, for a right triangle,
 #   the lengths of the two sides adjacent to its right angle,
 #   and it returns the length of the hypotenuse of that triangle.
@@ -38,11 +38,13 @@ def main():
 #
 #   You may name the function and its parameters whatever you wish.
 #
-# TODO: 3b.  In main, CALL your function and print the returned value,
+# DONE: 3b.  In main, CALL your function and print the returned value,
 #   to test whether you defined the function correctly.
 #
 ###############################################################################
 def distance(x,y):
+    distance_x = x
+    distance_y = y
     x_squared = x*x
     y_squared = y*y
     hypotenuse = math.sqrt(x_squared + y_squared)
@@ -75,6 +77,13 @@ def distance(x,y):
 #   for the arguments) to test whether you defined the function correctly.
 #
 ###############################################################################
+def TurtleWindow():
+    window =rg.TurtleWindow()
+    boris = rg.SimpleTurtle()
+    boris.pen =rg.Pen('green')
+
+    natasha = rg.SimpleTurtle()
+    natasha.pen = rg.Pen(5)
 
 
 ###############################################################################
